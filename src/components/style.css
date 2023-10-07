@@ -1,0 +1,247 @@
+  @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@400;700&family=Fuggles&family=Lobster&family=Mrs+Saint+Delafield&family=Orbitron:wght@800&family=Pacifico&family=Podkova:wght@600&family=Satisfy&family=Sofia&family=VT323&display=swap');
+ 
+ /* header */
+ 
+  .logoImg{
+    height: 55px;
+    width: 94px;
+    padding: 0;
+}
+.p{
+    display: inline;
+    font-family: 'Satisfy', cursive;
+     font-size: 40px !important;
+     color:  rgb(37, 15, 15) !important;
+}
+
+/* footer */
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.092);
+    overflow-anchor:none;
+    width: 100%;
+}
+.i1{
+    color: rgb(255, 255, 255) !important;
+    margin: 5px;
+}
+.i1:hover{
+    color:rgb(37, 15, 15) ;
+    /* border: 1px solid white; */
+}
+button{
+    background-color: transparent !important;
+    border: 2px solid white;
+    color: white;
+}
+button:hover{
+    background-color: white !important;
+    color:rgb(37, 15, 15) ;
+}
+.div1{
+    background-color: white;
+    color:rgb(37, 15, 15) ;
+}
+
+
+/* home page */
+.div3{
+    background-color:rgba(255, 255, 255, 0.092) ;
+    height: 250px;
+    width: 100%;
+    margin: 0;
+}
+.img1{
+    height: 428px;
+    margin-top: -90px;
+    margin-left: 120px !important;
+}
+.head1{
+    font-family: 'Satisfy', cursive;
+}
+.card{
+    background-color:rgba(255, 255, 255, 0.092) !important;
+}
+.card:hover{
+    transform: scale(1.05);
+
+}
+.cText{
+    color: rgb(181, 169, 169) !important;
+}
+.fa-location-dot{
+    color: white;
+}
+/* .div2{
+    height: 500px;
+} */
+
+/* single view */
+
+.lgi{
+margin: 10px;
+background-color: rgba(255, 255, 255, 0) !important ;
+color: rgb(195, 193, 193) !important ;
+font-size: 25px;
+border: 0 !important;
+}
+.lgi:hover{
+    transform: scale(1.005);
+}
+span{
+    font-size: 25px !important;
+    color: white;
+}
+.lgi1{
+   /* width: 0%; */
+   background-color: rgba(255, 255, 255, 0.092) !important ;
+   border:1px rgb(168, 168, 168) solid !important;
+   margin: 10px;
+}
+.head2{
+    font-family: 'Satisfy', cursive;
+
+}
+
+/* review / accrodion */
+
+.accro{
+    background-color:transparent !important ;
+    border:0 !important; 
+}
+.accro:hover{
+    background-color: transparent !important;
+    border: 0 !important;
+}
+
+ .acc-header {
+    background-color: transparent !important;
+    color: white !important;
+}
+      
+.acc-header,.btn1:hover {
+    background-color: transparent !important; 
+    color: white !important; 
+    border: none  !important; 
+    text-decoration: none !important;
+
+      }
+
+
+
+/* oprating hrs / modal */
+.btn1{
+    border: 0 !important;
+    font-size: 15px !important;   
+}
+.btn1:hover{
+   background-color: transparent !important;
+}
+.btn2{
+    border: 2px solid white !important;
+    font-size: 15px !important;   
+}
+.btn2:hover{
+   background-color: transparent !important;
+}
+
+.modal1{
+    background-color:rgb(37, 15, 15) !important ;
+}
+.modalBody{
+    background-color:rgb(37, 15, 15) !important ;
+}
+.list1{
+    background-color:transparent !important;
+    border: 0px !important;
+    color: rgb(159, 159, 159);
+}
+.mfooter{
+    background-color:rgb(37, 15, 15) !important;
+}
+
+
+
+
+
+/* media quary */
+
+@media (max-width:1413px) {
+    .img1{
+        margin-left: 15px !important;
+    }
+}
+@media (max-width:1033px) {
+    .img1{
+        height: 300px;
+        margin-top: -25px;
+        margin-left: 40px !important;
+    }
+    .head1,.para{
+        margin: 25px;
+    }
+}
+@media (max-width:825px) {
+    .img1{
+        /* margin-left: 15px !important; */
+    }
+    .head1{
+        font-size:188%;
+
+    }
+    .para{
+        font-size: 83%;
+    }
+}
+@media (max-width:775px) {
+    .img1{
+        margin-left: 60px !important;
+        height: 230px;
+        margin-top: -25px;
+    }
+    .div3{
+        height: 180px;
+    }
+    .head1{
+        font-size: 140%;
+        margin-left: 45px !important;
+    }
+    .para{
+        font-size: 70%;
+        margin-left: 45px;
+
+    }
+    .card{
+        margin-right: 0 !important;
+        margin-left: 35px;
+    }
+    a{
+        text-align: center !important;
+    }
+    .navBrand{
+        text-align: center;
+    }
+}
+
+@media (max-width:575px){
+      .img1{
+        margin-left: 150px !important;
+      }
+}
+@media (max-width:507px){
+    .img1{
+        margin-left:130px !important ;
+    }
+}
+@media (max-width:466px){
+    .img1{
+        margin-left:100px !important ;
+    }
+}
+@media (max-width:407px){
+    .img1{
+        margin-left:90px !important ;
+    }
+}
+
+
